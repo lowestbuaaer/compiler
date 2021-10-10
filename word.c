@@ -89,7 +89,7 @@ int main(int argc, char *argv[]){
                     num=10*num+storage[index]-'0';
                 }
                 index--;
-                printf("Number(%d)",num);
+                printf("Number(%d)\n",num);
             }
             else if(is_nondigit(storage[index])){
                 char identity[100];
@@ -126,7 +126,7 @@ int main(int argc, char *argv[]){
                     }
                 }
                 index--;
-                printf("Ident(%s)",identity);
+                printf("Ident(%s)\n",identity);
             }
             else if(storage[index]==' '||storage[index]=='\t'){
 

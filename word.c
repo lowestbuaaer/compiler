@@ -84,12 +84,17 @@ int main(int argc, char *argv[]){
                     printf("Assign\n");
             }
             else if(is_digit(storage[index])){
-                int num=storage[index]-'0';
+                char identity[100];
+                for(int i=0;i<100;i++){
+                    identity[i]='\0';
+                }
+                int inn_index=0;
+                identity[inn_index]=storage[index];
                 while(is_digit(storage[++index])){
-                    num=10*num+storage[index]-'0';
+                    identity[++inn_index]=storage[index];
                 }
                 index--;
-                printf("Number(%d)\n",num);
+                printf("Number(%s)\n",identity);
             }
             else if(is_nondigit(storage[index])){
                 char identity[100];

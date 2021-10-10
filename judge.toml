@@ -1,6 +1,6 @@
-[jobs.pascal_lex]
+[jobs.lexer]
 
-image = { source = "dockerfile", path = ".", tag = "pascal-lex-example" }
+image = { source = "dockerfile", path = ".", tag = "lexer" }
 
 run = [
   "./word $input",

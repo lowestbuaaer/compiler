@@ -102,35 +102,46 @@ int main(int argc, char *argv[]){
                     identity[i]='\0';
                 }
                 int inn_index=0;
+                int flag = 0;
                 identity[inn_index]=storage[index];
                 while(is_digit(storage[++index])||is_nondigit(storage[index])){
                     identity[++inn_index]=storage[index];
                     if(strcmp(identity,"if")==0){
                         printf("If\n");
+                        flag=1;
                         break;
                     }
                     else if(strcmp(identity,"else")==0){
                         printf("Else\n");
+                        
+                        flag=1;
                         break;
                     }
                     else if(strcmp(identity,"while")==0){
                         printf("While\n");
+                        flag=1;
                         break;
                     }
                     else if(strcmp(identity,"break")==0){
                         printf("Break\n");
+                        flag=1;
                         break;
                     }
                     else if(strcmp(identity,"continue")==0){
                         printf("Continue\n");
+                        flag=1;
                         break;
                     }
                     else if(strcmp(identity,"return")==0){
                         printf("Return\n");
+                        flag=1;
                         break;
                     }
                 }
+                if(flag==0){
+                    index--;
                 printf("Ident(%s)\n",identity);
+                }
             }
             else if(storage[index]==' '||storage[index]=='\t'||storage[index]=='\r'||storage[index]=='\n'){
 

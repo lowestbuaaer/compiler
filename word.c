@@ -125,7 +125,6 @@ int main(int argc, char *argv[]){
                         break;
                     }
                 }
-                index--;
                 printf("Ident(%s)\n",identity);
             }
             else if(storage[index]==' '||storage[index]=='\t'||storage[index]=='\r'||storage[index]=='\n'){

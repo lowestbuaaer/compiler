@@ -3,6 +3,5 @@
 image = { source = "dockerfile", path = "." }
 
 run = [
-
   "java main $input ->$ir",
 ]

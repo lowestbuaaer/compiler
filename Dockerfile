@@ -1,4 +1,4 @@
-FROM openjdk:14
+FROM openjdk:7
 COPY ./src/ /app/
 WORKDIR /app/
 RUN ls

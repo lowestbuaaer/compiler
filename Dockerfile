@@ -6,5 +6,5 @@ RUN ls
 RUN cd antlr
 RUN ls
 RUN cd ..
-#RUN cp ./antlr-4.9.2-complete.jar /usr/local/openjdk-8/bin/
+RUN cp ./antlr-4.9.2-complete.jar /usr/local/openjdk-12/bin/
 RUN javac main.java -cp ./:./antlr-4.9.2-complete.jar

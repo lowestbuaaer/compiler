@@ -1,4 +1,6 @@
-package antlr;
+// Generated from minisysy.g4 by ANTLR 4.9.2
+        //一种action,定义生成的词法语法解析文件的头，当使用java的时候，生成的类需要包名，可以在这里统一定义
+ package antlr;
  
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -112,6 +114,11 @@ public class minisysyParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitStmt(this);
 		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof minisysyVisitor ) return ((minisysyVisitor<? extends T>)visitor).visitStmt(this);
+			else return visitor.visitChildren(this);
+		}
 	}
 
 	public final StmtContext stmt() throws RecognitionException {
@@ -156,6 +163,11 @@ public class minisysyParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitBlock(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof minisysyVisitor ) return ((minisysyVisitor<? extends T>)visitor).visitBlock(this);
+			else return visitor.visitChildren(this);
 		}
 	}
 
@@ -204,6 +216,11 @@ public class minisysyParser extends Parser {
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitFuncdef(this);
 		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof minisysyVisitor ) return ((minisysyVisitor<? extends T>)visitor).visitFuncdef(this);
+			else return visitor.visitChildren(this);
+		}
 	}
 
 	public final FuncdefContext funcdef() throws RecognitionException {
@@ -250,6 +267,11 @@ public class minisysyParser extends Parser {
 		@Override
 		public void exitRule(ParseTreeListener listener) {
 			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitComunit(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof minisysyVisitor ) return ((minisysyVisitor<? extends T>)visitor).visitComunit(this);
+			else return visitor.visitChildren(this);
 		}
 	}
 

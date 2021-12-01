@@ -1,9 +1,5 @@
 FROM openjdk:14
-COPY . /app/
+COPY ./src/ /app/
 WORKDIR /app/
 RUN ls
-RUN cd ./antlr
-RUN ls
-RUN cd ..
-RUN javac -cp ./:./antlr/antlr-4.9.2-complete.jar main.java
-RUN ls
+RUN javac -cp ./:./antlr/antlr-4.9.2-complete.jar main.java -encoding utf-8

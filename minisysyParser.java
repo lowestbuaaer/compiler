@@ -1,8 +1,6 @@
 // Generated from minisysy.g4 by ANTLR 4.9.2
         //一种action,定义生成的词法语法解析文件的头，当使用java的时候，生成的类需要包名，可以在这里统一定义
 
-import antlr.minisysyListener;
-import antlr.minisysyVisitor;
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.ATN;
 import org.antlr.v4.runtime.atn.ATNDeserializer;

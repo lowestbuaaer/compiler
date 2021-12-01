@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4b7c901-1748-4a7d-b8ff-e8cf2d60afa0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr/minisysyBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr/minisysyBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr/minisysyLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr/minisysyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr/minisysyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr/minisysyVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/visitor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21fN4uHOqHk0tPTp5aDhXuveEFj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\github 本地仓库\compiler" />
+      <recent name="C:\Users\lenovo\Desktop\github 本地仓库\compiler\antlr" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4b7c901-1748-4a7d-b8ff-e8cf2d60afa0" name="Default Changelist" comment="" />
+      <created>1638327994229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638327994229</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="63" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638347092989">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1638347092989" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638345597200">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1638345597200" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1638347076451">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1638347076451" />
+  </component>
+</project>

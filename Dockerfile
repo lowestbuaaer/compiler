@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:1.8.0
 WORKDIR /app/
 COPY ./* ./antlr/
 COPY ./*  ./

@@ -1,3 +1,6 @@
+import antlr.minisysyBaseVisitor;
+import antlr.minisysyParser;
+
 public class visitor extends minisysyBaseVisitor<Void>{
     @Override
     public Void visitComunit(antlr.minisysyParser.ComunitContext ctx) {

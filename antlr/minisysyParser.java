@@ -1,15 +1,15 @@
 // Generated from minisysy.g4 by ANTLR 4.9.2
-        //一种action,定义生成的词法语法解析文件的头，当使用java的时候，生成的类需要包名，可以在这里统一定义
-
-import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.atn.ATN;
-import org.antlr.v4.runtime.atn.ATNDeserializer;
-import org.antlr.v4.runtime.atn.ParserATNSimulator;
-import org.antlr.v4.runtime.atn.PredictionContextCache;
+        //�?种action,定义生成的词法语法解析文件的头，当使用java的时候，生成的类�?要包名，可以在这里统�?定义
+ package antlr;
+ 
+import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
-import org.antlr.v4.runtime.tree.ParseTreeListener;
-import org.antlr.v4.runtime.tree.ParseTreeVisitor;
-import org.antlr.v4.runtime.tree.TerminalNode;
+import org.antlr.v4.runtime.*;
+import org.antlr.v4.runtime.misc.*;
+import org.antlr.v4.runtime.tree.*;
+import java.util.List;
+import java.util.Iterator;
+import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class minisysyParser extends Parser {
@@ -108,16 +108,11 @@ public class minisysyParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).enterStmt(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).enterStmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).exitStmt(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof minisysyVisitor) return ((minisysyVisitor<? extends T>)visitor).visitStmt(this);
-			else return visitor.visitChildren(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitStmt(this);
 		}
 	}
 
@@ -158,16 +153,11 @@ public class minisysyParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_block; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).enterBlock(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).enterBlock(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).exitBlock(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof minisysyVisitor) return ((minisysyVisitor<? extends T>)visitor).visitBlock(this);
-			else return visitor.visitChildren(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitBlock(this);
 		}
 	}
 
@@ -210,16 +200,11 @@ public class minisysyParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_funcdef; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).enterFuncdef(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).enterFuncdef(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).exitFuncdef(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof minisysyVisitor) return ((minisysyVisitor<? extends T>)visitor).visitFuncdef(this);
-			else return visitor.visitChildren(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitFuncdef(this);
 		}
 	}
 
@@ -262,16 +247,11 @@ public class minisysyParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_comunit; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).enterComunit(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).enterComunit(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof minisysyListener) ((minisysyListener)listener).exitComunit(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof minisysyVisitor) return ((minisysyVisitor<? extends T>)visitor).visitComunit(this);
-			else return visitor.visitChildren(this);
+			if ( listener instanceof minisysyListener ) ((minisysyListener)listener).exitComunit(this);
 		}
 	}
 

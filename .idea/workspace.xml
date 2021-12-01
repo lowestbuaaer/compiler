@@ -21,13 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4b7c901-1748-4a7d-b8ff-e8cf2d60afa0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/minisysyBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/minisysyBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/minisysyLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/minisysyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/minisysyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/minisysyVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/minisysyVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/visitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

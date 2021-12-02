@@ -3,5 +3,5 @@
 image = { source = "dockerfile", path = "." }
 
 run = [
-  "java main $input -Xbootclasspath/a: ./antlr/antlr-4.9.2-complete.jar ->$ir",
+  "java main $input ->$ir",
 ]

@@ -1,5 +1,6 @@
-FROM openjdk:7
-COPY ./src/ /app/
+FROM openjdk:12
+COPY . /app/
 WORKDIR /app/
-RUN ls
-RUN javac -cp ./:./antlr/antlr-4.9.2-complete.jar main.java -encoding utf-8
+RUN cd src
+RUN export CLASSPATH=$CLASSPATH:./antlr/antlr-4.9.2-complete.jar
+RUN javac  main.java
